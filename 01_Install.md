@@ -66,8 +66,7 @@ $ ls <check connection network: ensXXX.nmconnection>
 
 [ensXXX.nmconnection]
 
-[ipv4]
-method=manual
+[ipv4] method=manual
 address1=192.168.111.100/24,192.168.111.2
 dns=192.168.111.2
 
