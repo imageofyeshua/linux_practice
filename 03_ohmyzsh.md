@@ -51,4 +51,21 @@ $ echo 'source ~/.powerlevel10k/powerlevel10k.zsh-theme' >> ~/.zsrhc
 
 $ p10k configure >> reconfiguration
 
+// NvChad install
+
+
+```
+
+$ git clone https://github.com/NvChad/starter ~/.config/nvim && nvim
+// Install Proto Nerd Font for Proper Icon Display
+
+```
+
+// Run :MasonInstallAll after plugins downloading
+// Delete .git folder
+// Manual :h nvui
+// Uninstall
+rm -rf ~/.config/nvim
+rm -rf ~/.local/state/nvim
+rm -rf ~/.local/share/nvim
 ```

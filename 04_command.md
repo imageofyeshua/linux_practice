@@ -20,3 +20,8 @@ $ chvt 3 >> change to 3 monitor
 $ shutdown -h +5 >> poweroff after 5 minutes
 $ shutdown -c >> poweroff cancel
 $ shutdown -k +10 >> fake poweroff message
+
+// create several directories
+$ mkdir -p abc/def/hij
+$ cat <file> | less
+$ file /dev/sda >> displays file detail
