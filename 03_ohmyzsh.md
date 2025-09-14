@@ -5,6 +5,12 @@ $ apt install zsh
 $ chsh -s $(which zsh)
 $ echo $SHELL
 
+// ubuntu server settings >> oh-my-zsh theme : eastwood
+$ sudo apt install fontconfig
+
+// nanum font
+$ sudo apt install fonts-nanum fonts-nanum-coding fonts-nanum-extra
+
 // nerd font install
 wget -P ~/.local/share/fonts https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/JetBrainsMono.zip \
 && cd ~/.local/share/fonts \
@@ -41,7 +47,7 @@ plugins=(
 // powerlevel10k
 $ git clone https://github.com/romkatv/powerlevel10k.git ~/.powerlevel10k
 
-$ source ~/.powerlevel10k/powerlevel10k.zsh-theme
+$ echo 'source ~/.powerlevel10k/powerlevel10k.zsh-theme' >> ~/.zsrhc
 
 $ p10k configure >> reconfiguration
 
