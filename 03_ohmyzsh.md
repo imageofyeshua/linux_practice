@@ -52,7 +52,7 @@ $ echo 'source ~/.powerlevel10k/powerlevel10k.zsh-theme' >> ~/.zsrhc
 $ p10k configure >> reconfiguration
 
 // NvChad install
-
+$ apt install ripgrep : telescope to gitignore
 
 ```
 
