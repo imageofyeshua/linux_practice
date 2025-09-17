@@ -25,29 +25,24 @@ $ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/t
 $ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
 // zsh-autosuggestions
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+$ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
-// fzf (fuzzy file finding)
-$ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
-~/.fzf/install
+// powerlevel10k theme
+$ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/powerlevel10k
 
 // zsh-z >> auto directory movement
 $ git clone https://github.com/agkozak/zsh-z ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-z
 
 // .zshrc setting
 
+ZSH_THEME="powerlevel10k/powerlevel10k"
+
 plugins=(
   git
   zsh-syntax-highlighting
   zsh-autosuggestions
-  fzf
   zsh-z
 )
-
-// powerlevel10k
-$ git clone https://github.com/romkatv/powerlevel10k.git ~/.powerlevel10k
-
-$ echo 'source ~/.powerlevel10k/powerlevel10k.zsh-theme' >> ~/.zsrhc
 
 $ p10k configure >> reconfiguration
 
